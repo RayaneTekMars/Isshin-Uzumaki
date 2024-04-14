@@ -7,6 +7,16 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    fontFamily: {
+      'naruto': ['Naruto', 'sans-serif'],
+      'sensei': ['Sensei', 'sans-serif'],
+    },
+    colors: {
+      red: {
+        500: "#AD4758"
+      },
+      white: "#FFFFFF"
+    },
     extend: {
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
