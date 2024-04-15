@@ -15,29 +15,56 @@ export default function Home() {
         <div className="flex flex-col lg:flex-row justify-center items-start mt-10 lg:mt-40">
           <div data-aos="fade-right" className="lg:ml-10 lg:pl-24 px-4 md:px-10 lg:w-1/2">
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-sensei text-white mb-10">L&apos;histoire d&apos;Isshin Uzumaki</h1>
-            <p className="text-sm md:text-base lg:text-lg font-sensei text-white text-opacity-80 mb-4">
-              À 14 ans, Isshin Uzumaki est tout juste sorti de l&apos;académie ninja, la tête remplie de rêves et d&apos;aspirations. Comme la plupart des gamins de son âge dans le village caché de Konoha, il est super excité à l&apos;idée de commencer sa vie de ninja. Mais Isshin n&apos;est pas un gamin ordinaire. Avec l&apos;héritage d&apos;une des familles les plus balèzes, il sent le poids des attentes sur ses épaules.
-            </p>
-            <br />
-            <p className="text-sm md:text-base lg:text-lg font-sensei text-white text-opacity-80 mb-4">
+            <div className="lg:flex mb-10">
+              <Image
+                src="/isshin2.png"
+                alt="Isshin Uzumaki"
+                width={300}
+                height={100}
+                className="rounded-lg"
+              />
+              <p className="text-sm md:text-base lg:text-2xl font-sensei text-white text-opacity-80 mb-4 mt-10">
+                À 14 ans, Isshin Uzumaki est tout juste sorti de l&apos;académie ninja, la tête remplie de rêves et d&apos;aspirations. Comme la plupart des gamins de son âge dans le village caché de Konoha, il est super excité à l&apos;idée de commencer sa vie de ninja. Mais Isshin n&apos;est pas un gamin ordinaire. Avec l&apos;héritage d&apos;une des familles les plus balèzes, il sent le poids des attentes sur ses épaules.
+              </p>
+            </div>
+            <p className="text-sm md:text-base lg:text-2xl font-sensei text-white text-opacity-80 mb-4">
               Depuis qu&apos;il est gosse, il a grandi avec les histoires de son grand-père Katsuro, les aventures épiques de son père Ashina, et les visites mystérieuses de son oncle Solio. Ces récits ont façonné ses ambitions, mais aussi ses craintes. Isshin sait qu&apos;il doit non seulement faire honneur à sa famille, mais aussi aller encore plus loin.
             </p>
             <br />
-            <p className="text-sm md:text-base lg:text-lg font-sensei text-white text-opacity-80 mb-4">
-              Son cousin Koru, également diplômé de l&apos;école, est toujours dans les parages. Ensemble, ils forment une équipe du tonnerre. Koru, avec sa détermination en acier, inspire souvent Isshin à ne jamais lâcher, même face aux défis les plus flippants. Leur compétition amicale continue de les pousser à être les meilleurs ninjas possibles.
-            </p>
             <br />
-            <p className="text-sm md:text-base lg:text-lg font-sensei text-white text-opacity-80 mb-4">
+            <div className="lg:flex">
+              <Image
+                src="/isshincousin.png"
+                alt="Isshin Uzumaki et son cousin Kuro"
+                width={300}
+                height={100}
+                className="rounded-lg mr-10"
+              />
+              <p className="text-sm md:text-base lg:text-2xl font-sensei text-white text-opacity-80 mb-4 mt-10">
+                Son cousin Koru, également diplômé de l&apos;école, est toujours dans les parages. Ensemble, ils forment une équipe du tonnerre. Koru, avec sa détermination en acier, inspire souvent Isshin à ne jamais lâcher, même face aux défis les plus flippants. Leur compétition amicale continue de les pousser à être les meilleurs ninjas possibles.
+              </p>
+            </div>
+            <br />
+            <p className="text-sm md:text-base lg:text-2xl font-sensei text-white text-opacity-80 mb-4">
               Alors que Isshin commence à faire ses premières missions, sa curiosité pour les enseignements interdits de son oncle Solio grandit. L&apos;interdiction de son père de suivre les traces de Solio ne fait qu&apos;alimenter sa fascination pour les secrets que celui-ci détient. Isshin commence à étudier en cachette les vieux artéfacts et les techniques de scellement que Solio avait laissés derrière lui.
             </p>
             <br />
-            <p className="text-sm md:text-base lg:text-lg font-sensei text-white text-opacity-80 mb-4">
+            <p className="text-sm md:text-base lg:text-2xl font-sensei text-white text-opacity-80 mb-4">
               Sa première grosse galère arrive quand une mission apparemment simple tourne mal. Il se retrouve face à des ennemis qui reconnaissent le nom Uzumaki et qui le voient comme une cible de choix. Isshin doit puiser dans le courage et la sagesse de sa lignée pour protéger non seulement sa vie, mais aussi celle de ses coéquipiers.
             </p>
             <br />
-            <p className="text-sm md:text-base lg:text-lg font-sensei text-white text-opacity-80 mb-4">
-              Au cours de ses premiers jours en tant que shinobi, Isshin saisit rapidement l&apos;importance de la collaboration, du dévouement personnel et de l&apos;équilibre entre l&apos;honneur familial et ses convictions. Tout en jonglant entre les attentes et ses désirs personnels, Isshin commence à comprendre qu&apos;il est possible de préserver l&apos;héritage de sa famille tout en traçant sa propre trajectoire. Cette réalisation le guidera à travers les nombreux défis qui l&apos;attendent.
-            </p>
+            <div className="lg:flex">
+              <Image
+                src="/fuin.png"
+                alt="Isshin Uzumaki Fuinjutsu"
+                width={300}
+                height={100}
+                className="rounded-lg mr-10 mb-10"
+              />
+              <p className="text-sm md:text-base lg:text-2xl font-sensei text-white text-opacity-80 mb-4">
+                Au cours de ses premiers jours en tant que shinobi, Isshin saisit rapidement l&apos;importance de la collaboration, du dévouement personnel et de l&apos;équilibre entre l&apos;honneur familial et ses convictions. Tout en jonglant entre les attentes et ses désirs personnels, Isshin commence à comprendre qu&apos;il est possible de préserver l&apos;héritage de sa famille tout en traçant sa propre trajectoire. Cette réalisation le guidera à travers les nombreux défis qui l&apos;attendent.
+              </p>
+            </div>
           </div>
           <div data-aos="fade-left" className="lg:ml-40 mt-10 lg:mt-0 px-4 md:px-10">
             <Image
@@ -49,30 +76,30 @@ export default function Home() {
             />
           </div>
         </div>
-        <div className="flex flex-col items-center justify-center mb-20 mt-20 px-4 md:px-24">
+        <div className="flex flex-col items-center justify-center mb-20 mt-40 px-4 md:px-24">
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-sensei text-white mb-20">Les traits de caractères d&apos;Isshin Uzumaki</h1>
           <div>
-            <p className="text-sm md:text-base lg:text-lg font-sensei text-white text-opacity-80 mb-4">
+            <p className="text-sm md:text-base lg:text-xl font-sensei text-white text-opacity-80 mb-4">
               Shin Uzumaki est un personnage complexe ancré dans l&apos;héritage de son clan. Voici quatre de ses traits principaux :
             </p>
             <br />
-            <p className="text-sm md:text-base lg:text-lg font-sensei text-white text-opacity-80 mb-4">
+            <p className="text-sm md:text-base lg:text-xl font-sensei text-white text-opacity-80 mb-4">
               • Déterminé et résolu : Shin est très déterminé lorsqu&apos;il poursuit un objectif. Il ne laisse jamais les obstacles ou les échecs le détourner de son but.
             </p>
             <br />
-            <p className="text-sm md:text-base lg:text-lg font-sensei text-white text-opacity-80 mb-4">
+            <p className="text-sm md:text-base lg:text-xl font-sensei text-white text-opacity-80 mb-4">
               • Protecteur : Shin est très attaché à sa famille et à ses amis. Il est prêt à se mettre en danger pour les protéger, ce qui reflète la force et l&apos;endurance de son clan.
             </p>
             <br />
-            <p className="text-sm md:text-base lg:text-lg font-sensei text-white text-opacity-80 mb-4">
+            <p className="text-sm md:text-base lg:text-xl font-sensei text-white text-opacity-80 mb-4">
               • Curieux et réfléchi : Shin a une curiosité naturelle pour les techniques ninja et les secrets de son clan. Il utilise son intelligence pour résoudre des énigmes complexes et comprendre le monde shinobi.
             </p>
             <br />
-            <p className="text-sm md:text-base lg:text-lg font-sensei text-white text-opacity-80 mb-4">
+            <p className="text-sm md:text-base lg:text-xl font-sensei text-white text-opacity-80 mb-4">
               • Loyal mais indépendant : Shin est très loyal envers son clan et ses proches, mais il valorise aussi sa liberté de pensée et d&apos;action. Il préfère souvent suivre son propre chemin plutôt que les traditions ou les attentes des autres.
             </p>
             <br />
-            <p className="text-sm md:text-base lg:text-lg font-sensei text-white text-opacity-80 mb-4">
+            <p className="text-sm md:text-base lg:text-xl font-sensei text-white text-opacity-80 mb-4">
               Ces traits font de Shin Uzumaki un ninja compétent, respecté et aimé par ceux qui le connaissent.
             </p>
           </div>
@@ -161,7 +188,7 @@ export default function Home() {
             </div>
           </div>
           <div data-aos="fade-up" className="items-center justify-center mt-10">
-          <p className="text-sm md:text-base lg:text-lg font-sensei text-white text-opacity-80 mb-4">
+            <p className="text-sm md:text-base lg:text-lg font-sensei text-white text-opacity-80 mb-4">
               - Je m&apos;appelle Rayane, j&apos;ai 24 ans et je suis en dernière année de Master. Je suis développeur web et j&apos;ai une passion pour le RP.
             </p>
             <p className="text-sm md:text-base lg:text-lg font-sensei text-white text-opacity-80 mb-4">
@@ -184,7 +211,7 @@ export default function Home() {
         <WaveDivider />
         <TopWaveDivider />
         <div className="flex min-h-fit flex-col items-center justify-center mb-40 mt-20">
-        <h1 className="font-sensei text-xl md:text-2xl lg:text-3xl text-white mb-4 text-center">Mes motivations, pourquoi moi et pas un autre ?</h1>
+          <h1 className="font-sensei text-xl md:text-2xl lg:text-3xl text-white mb-4 text-center">Mes motivations, pourquoi moi et pas un autre ?</h1>
           <div data-aos="fade-up" className="flex items-center justify-center">
             <div className="w-1/2 mt-10">
               <h1 className="font-sensei text-white text-3xl mb-4"></h1>
