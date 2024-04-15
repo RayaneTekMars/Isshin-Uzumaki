@@ -15,7 +15,7 @@ export default function Home() {
         <div className="flex flex-col lg:flex-row justify-center items-start mt-10 lg:mt-40">
           <div data-aos="fade-right" className="lg:ml-10 lg:pl-24 px-4 md:px-10 lg:w-1/2">
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-sensei text-white mb-10">L&apos;histoire d&apos;Isshin Uzumaki</h1>
-            <div className="lg:flex mb-10">
+            <div>
               <Image
                 src="/isshin2.png"
                 alt="Isshin Uzumaki"
@@ -32,7 +32,7 @@ export default function Home() {
             </p>
             <br />
             <br />
-            <div className="lg:flex">
+            <div>
               <Image
                 src="/isshincousin.png"
                 alt="Isshin Uzumaki et son cousin Kuro"
@@ -53,7 +53,7 @@ export default function Home() {
               Sa première grosse galère arrive quand une mission apparemment simple tourne mal. Il se retrouve face à des ennemis qui reconnaissent le nom Uzumaki et qui le voient comme une cible de choix. Isshin doit puiser dans le courage et la sagesse de sa lignée pour protéger non seulement sa vie, mais aussi celle de ses coéquipiers.
             </p>
             <br />
-            <div className="lg:flex">
+            <div>
               <Image
                 src="/fuin.png"
                 alt="Isshin Uzumaki Fuinjutsu"
