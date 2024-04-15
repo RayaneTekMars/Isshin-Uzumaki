@@ -10,7 +10,7 @@ export default function Home() {
         <div className="flex flex-col items-center justify-center mt-10 px-4 md:px-10 lg:mt-20">
           <h1 data-aos="fade-down" className="text-center text-3xl md:text-5xl lg:text-6xl font-naruto text-white mb-2">Isshin</h1>
           <h1 data-aos="fade-up" className="text-center text-3xl md:text-5xl lg:text-6xl font-naruto text-red-500 mb-3">Uzumaki</h1>
-          <h2 data-aos="fade-up" className="text-center text-xs md:text-sm lg:text-base font-naruto text-white text-opacity-80 mb-10 lg:mb-20">fils de Ashina Uzumaki</h2>
+          <h2 data-aos="fade-up" className="text-center text-xs md:text-sm lg:text-base font-naruto text-white text-opacity-80 mb-10 lg:mb-20">fils d&apos;Ashina Uzumaki</h2>
         </div>
         <div className="flex flex-col lg:flex-row justify-center items-start mt-10 lg:mt-40">
           <div data-aos="fade-right" className="lg:ml-10 lg:pl-24 px-4 md:px-10 lg:w-1/2">
